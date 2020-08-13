@@ -1,5 +1,7 @@
 package indi.jackie.leetcode.linkedlist;
 
+import java.util.Objects;
+
 /**
  * @author jackie chen
  * @create 2020/8/10
@@ -7,6 +9,9 @@ package indi.jackie.leetcode.linkedlist;
  */
 public class ReverseLinkedList206 {
     public ListNode reverseList(ListNode head) {
+        if (Objects.isNull(head)) {
+            return null;
+        }
         ListNode temp = null;
         ListNode next = head.next;
         while (head.next != null) {
