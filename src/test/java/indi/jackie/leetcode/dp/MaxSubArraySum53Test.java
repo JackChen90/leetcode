@@ -1,4 +1,4 @@
-package indi.jackie.leetcode.linkedlist;
+package indi.jackie.leetcode.dp;
 
 import indi.jackie.leetcode.dp.MaxSubArraySum53;
 import org.junit.Assert;
