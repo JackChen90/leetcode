@@ -13,7 +13,7 @@ public class RemoveKdigits402Test {
 
     @Test
     public void removeKdigits() {
-        String result = new RemoveKdigits402().removeKdigits("1432219", 3);
+        String result = new RemoveKdigits402().removeKdigits("1111111", 3);
         System.out.println(result);
     }
 }
