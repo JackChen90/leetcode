@@ -15,15 +15,15 @@ public class LRUCache146Test {
     @Test
     public void test() {
         int result;
-        int capacity = 3;
+        int capacity = 2;
         LRUCache146 lruCache146 = new LRUCache146(capacity);
-        lruCache146.put(1, 1);
+        lruCache146.put(2, 1);
         lruCache146.put(2, 2);
-        lruCache146.put(3, 3);
         result = lruCache146.get(2);
         Assert.assertEquals(2, result);
-        lruCache146.put(4, 4);
-        result = lruCache146.get(1);
+        lruCache146.put(1, 1);
+        lruCache146.put(4, 1);
+        result = lruCache146.get(2);
         Assert.assertEquals(-1, result);
     }
 }

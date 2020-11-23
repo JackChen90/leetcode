@@ -3,7 +3,6 @@ package indi.jackie.leetcode.struct;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author jackie chen
@@ -12,7 +11,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class LRUCache146 {
 
-    private AtomicInteger capacity;
+    private int capacity;
 
     private Map<Integer, Node> data;
 
@@ -21,7 +20,7 @@ public class LRUCache146 {
     private Node tail;
 
     public LRUCache146(int capacity) {
-        this.capacity = new AtomicInteger(capacity);
+        this.capacity = capacity;
         this.data = new HashMap<>(capacity);
         head = new Node(0, 0);
         tail = new Node(0, 0);
@@ -34,29 +33,31 @@ public class LRUCache146 {
         if (Objects.isNull(node)) {
             return -1;
         } else {
-            callBack(key);
+            callBack(node.key, node.value);
             return node.value;
         }
     }
 
     public void put(int key, int value) {
         if (data.containsKey(key)) {
-            callBack(key);
+            callBack(key, value);
         } else {
-            if (capacity.get() == 0) {
+            if (capacity == 0) {
                 Node removed = deleteBeforeTail();
                 data.entrySet().removeIf(e -> e.getKey().equals(removed.key));
-                capacity.incrementAndGet();
+                capacity++;
             }
-            capacity.decrementAndGet();
+            capacity--;
             Node temp = new Node(key, value);
             addAfterHead(temp);
             data.put(key, temp);
         }
     }
 
-    private void callBack(int key) {
+    private void callBack(int key, int value) {
         Node theOne = data.get(key);
+        theOne.value = value;
+
         Node prev = theOne.prev;
         Node next = theOne.next;
 
