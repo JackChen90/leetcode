@@ -1,5 +1,6 @@
 package indi.jackie.leetcode.dp;
 
+import indi.jackie.leetcode.struct.MaxNumber321;
 import org.junit.Test;
 
 import java.util.Arrays;

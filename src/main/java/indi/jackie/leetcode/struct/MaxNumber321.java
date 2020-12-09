@@ -1,4 +1,4 @@
-package indi.jackie.leetcode.dp;
+package indi.jackie.leetcode.struct;
 
 /**
  * @author jackie chen
