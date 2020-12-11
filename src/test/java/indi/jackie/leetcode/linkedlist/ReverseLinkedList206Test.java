@@ -1,5 +1,6 @@
 package indi.jackie.leetcode.linkedlist;
 
+import indi.jackie.leetcode.common.ListNode;
 import org.junit.Before;
 import org.junit.Test;
 

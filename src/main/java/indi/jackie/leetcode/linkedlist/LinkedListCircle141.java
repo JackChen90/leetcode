@@ -1,5 +1,7 @@
 package indi.jackie.leetcode.linkedlist;
 
+import indi.jackie.leetcode.common.ListNode;
+
 /**
  * @author jackie chen
  * @create 2020/8/14

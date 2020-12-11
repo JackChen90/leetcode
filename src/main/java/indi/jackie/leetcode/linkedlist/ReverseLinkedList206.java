@@ -1,5 +1,7 @@
 package indi.jackie.leetcode.linkedlist;
 
+import indi.jackie.leetcode.common.ListNode;
+
 import java.util.Objects;
 
 /**
