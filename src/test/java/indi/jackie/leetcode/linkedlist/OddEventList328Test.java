@@ -21,9 +21,12 @@ public class OddEventList328Test {
     }
 
     private ListNode createListNode() {
+        ListNode node6 = new ListNode();
+        node6.val = 7;
+        node6.next = null;
         ListNode node5 = new ListNode();
         node5.val = 4;
-        node5.next = null;
+        node5.next = node6;
         ListNode node4 = new ListNode();
         node4.val = 2;
         node4.next = node5;
