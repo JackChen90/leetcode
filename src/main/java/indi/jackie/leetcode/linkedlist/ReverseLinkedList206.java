@@ -16,13 +16,12 @@ public class ReverseLinkedList206 {
         }
         ListNode temp = null;
         ListNode next = head.next;
-        while (head.next != null) {
+        while (Objects.nonNull(head.next)) {
             head.next = temp;
             temp = head;
             head = next;
             next = next.next;
         }
-        head.next = temp;
         return head;
     }
 }
