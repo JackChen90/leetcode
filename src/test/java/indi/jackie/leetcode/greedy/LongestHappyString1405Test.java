@@ -1,6 +1,5 @@
 package indi.jackie.leetcode.greedy;
 
-import indi.jackie.leetcode.greedy.LongestHappyString1405;
 import org.junit.Test;
 
 /**
@@ -12,8 +11,8 @@ public class LongestHappyString1405Test {
 
     @Test
     public void longestDiverseString() {
-      String a =  new LongestHappyString1405().longestDiverseString(10,3,2);
-      System.out.print(a);
+        String a = new LongestHappyString1405().longestDiverseString(10, 3, 2);
+        System.out.print(a);
     }
 
 }

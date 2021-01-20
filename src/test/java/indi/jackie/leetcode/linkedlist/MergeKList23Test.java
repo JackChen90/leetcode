@@ -16,9 +16,9 @@ public class MergeKList23Test {
     public void mergeKLists() {
         ListNode[] lists = createNodes();
         ListNode node = new MergeKList23().mergeKLists(lists);
-        while (Objects.nonNull(node)){
+        while (Objects.nonNull(node)) {
             System.out.print(node.val);
-            if (Objects.nonNull(node.next)){
+            if (Objects.nonNull(node.next)) {
                 System.out.print("-->");
             }
             node = node.next;

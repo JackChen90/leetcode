@@ -17,7 +17,7 @@ public class MergeKList23 {
         ListNode tail = head;
         PriorityQueue<ListNode> queue = new PriorityQueue<>(Comparator.comparingInt(o -> o.val));
         List<ListNode> listNodes = Arrays.stream(lists).filter(Objects::nonNull).collect(Collectors.toList());
-        if (listNodes.isEmpty()){
+        if (listNodes.isEmpty()) {
             return null;
         }
         queue.addAll(listNodes);

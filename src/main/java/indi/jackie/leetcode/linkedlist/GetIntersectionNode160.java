@@ -14,15 +14,15 @@ import java.util.Objects;
 public class GetIntersectionNode160 {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         Map<ListNode, Integer> map = new HashMap<>();
-        while (Objects.nonNull(headA)){
+        while (Objects.nonNull(headA)) {
             map.put(headA, 1);
             headA = headA.next;
         }
-        while (Objects.nonNull(headB)){
-            if (map.containsKey(headB)){
+        while (Objects.nonNull(headB)) {
+            if (map.containsKey(headB)) {
                 return headB;
             }
-            headB= headB.next;
+            headB = headB.next;
         }
         return null;
     }

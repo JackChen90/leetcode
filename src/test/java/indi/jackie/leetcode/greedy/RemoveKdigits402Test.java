@@ -2,8 +2,6 @@ package indi.jackie.leetcode.greedy;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * @author jackie chen
  * @create 2020/11/16

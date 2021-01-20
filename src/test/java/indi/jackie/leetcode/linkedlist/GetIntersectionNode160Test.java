@@ -4,11 +4,6 @@ import indi.jackie.leetcode.common.ListNode;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.List;
-import java.util.Random;
-
-import static org.junit.Assert.*;
-
 /**
  * @author jackie chen
  * @create 2020/12/11

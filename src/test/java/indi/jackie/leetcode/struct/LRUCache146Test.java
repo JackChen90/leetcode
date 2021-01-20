@@ -3,8 +3,6 @@ package indi.jackie.leetcode.struct;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * @author jackie chen
  * @create 2020/10/12

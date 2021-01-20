@@ -2,8 +2,6 @@ package indi.jackie.leetcode.sort;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * @author jackie chen
  * @create 2020/11/25

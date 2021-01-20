@@ -2,7 +2,10 @@ package indi.jackie.leetcode.struct;
 
 import indi.jackie.leetcode.common.TreeNode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+import java.util.Stack;
 
 /**
  * @author jackie chen
