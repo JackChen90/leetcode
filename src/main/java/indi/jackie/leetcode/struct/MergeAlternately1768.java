@@ -18,7 +18,7 @@ public class MergeAlternately1768 {
         }
 
         if (appendWord2) {
-            sb.append(word2, word1.length(), word2.length() );
+            sb.append(word2, word1.length(), word2.length());
         }
         return sb.toString();
     }
