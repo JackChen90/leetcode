@@ -1,5 +1,6 @@
 package indi.jackie.leetcode.greedy;
 
+import indi.jackie.leetcode.dp.MinScoreTriangulation1039;
 import org.junit.Assert;
 import org.junit.Test;
 

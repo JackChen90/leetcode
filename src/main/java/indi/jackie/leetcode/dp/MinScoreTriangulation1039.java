@@ -1,4 +1,4 @@
-package indi.jackie.leetcode.greedy;
+package indi.jackie.leetcode.dp;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,8 +10,8 @@ import java.util.Map;
  */
 public class MinScoreTriangulation1039 {
 
-    int[] data;
-    Map<Integer, Integer> map = new HashMap<>();
+    private int[] data;
+    private Map<Integer, Integer> map = new HashMap<>();
 
     public int minScoreTriangulation(int[] values) {
         this.data = values;
