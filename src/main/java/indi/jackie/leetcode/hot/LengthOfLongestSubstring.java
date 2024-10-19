@@ -19,10 +19,8 @@ public class LengthOfLongestSubstring {
         while (first < chars.length) {
             if (charIndexMap.containsKey(chars[first])) {
                 second = Math.max(charIndexMap.get(chars[first]) + 1, second);
-                charIndexMap.put(chars[first], first);
-            } else {
-                charIndexMap.put(chars[first], first);
             }
+            charIndexMap.put(chars[first], first);
             maxLength = Math.max(maxLength, first - second + 1);
             first++;
         }
