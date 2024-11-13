@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * LengthOfLongestSubstring
+ * 无重复字符的最长子串
  *
  * @author jackie chen
  * @date 2024/10/17 1:38 PM

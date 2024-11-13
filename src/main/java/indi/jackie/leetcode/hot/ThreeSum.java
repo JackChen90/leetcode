@@ -5,7 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * ThreeSum
+ * 三数之和
+ * 给你一个包含n个整数的数组nums，判断nums中是否存在三个元素a，b，c，使得a+b+c=0？请你找出所有和为0且不重复的三元组。
  *
  * @author jackie chen
  * @date 2024/10/17 9:03 AM

@@ -5,6 +5,8 @@ import java.util.Map;
 import java.util.Stack;
 
 /**
+ * 有效的括号
+ *
  * @author jackie chen
  * @create 2024/11/3
  * @description IsValid

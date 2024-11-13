@@ -7,6 +7,7 @@ import java.util.List;
 
 /**
  * 合并区间
+ * 给出一个区间的集合，请合并所有重叠的区间。
  *
  * @author jackie chen
  * @date 2024/10/20 11:55 PM

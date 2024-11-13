@@ -2,6 +2,7 @@ package indi.jackie.leetcode.hot;
 
 /**
  * 矩阵置零
+ * 给定一个m*n的矩阵，如果一个元素是0，则将其所在行和列的所有元素都设为0
  *
  * @author jackie chen
  * @date 2024/10/22 8:55 AM

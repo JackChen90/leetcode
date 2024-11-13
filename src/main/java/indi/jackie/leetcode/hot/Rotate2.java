@@ -2,6 +2,7 @@ package indi.jackie.leetcode.hot;
 
 /**
  * 旋转图像
+ * 给定一个n*n的二维矩阵表示一个图像，将图像顺时针旋转90度
  *
  * @author jackie chen
  * @create 2024/11/6

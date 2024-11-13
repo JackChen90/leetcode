@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * 全排列
+ * 给定一个不含重复数字的数组nums，返回其所有可能的全排列
  *
  * @author jackie chen
  * @date 2024/11/7 3:38 PM

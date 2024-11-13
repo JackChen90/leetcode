@@ -1,6 +1,9 @@
 package indi.jackie.leetcode.hot;
 
 /**
+ * 两数之和
+ * 给定一个整数数组nums和一个目标值target，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标
+ *
  * @author jackie chen
  * @create 2024/10/13
  * @description TwoSum

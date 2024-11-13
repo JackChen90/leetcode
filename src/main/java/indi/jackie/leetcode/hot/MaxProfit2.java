@@ -2,6 +2,7 @@ package indi.jackie.leetcode.hot;
 
 /**
  * 股票卖出的最佳时机2
+ * 可以多次买卖一支股票，但是必须在再次购买前卖出
  *
  * @author jackie chen
  * @create 2024/11/3
@@ -25,6 +26,6 @@ public class MaxProfit2 {
                 buyIndex = i + 1;
             }
         }
-        return  profit;
+        return profit;
     }
 }

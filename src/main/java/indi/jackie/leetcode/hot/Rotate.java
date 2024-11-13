@@ -2,6 +2,7 @@ package indi.jackie.leetcode.hot;
 
 /**
  * 轮转数组
+ * 给定一个数组，将数组中的元素向右移动k个位置，其中k是非负数
  *
  * @author jackie chen
  * @date 2024/10/21 8:53 AM

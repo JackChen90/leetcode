@@ -3,6 +3,8 @@ package indi.jackie.leetcode.hot;
 import indi.jackie.leetcode.common.TreeNode;
 
 /**
+ * 对称二叉树
+ *
  * @author jackie chen
  * @create 2024/10/31
  * @description IsSymmetric
