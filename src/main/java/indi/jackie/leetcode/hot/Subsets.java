@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * Subsets (子集)
+ * 给定一个整数数组nums，返回该数组所有可能的子集（幂集）
  *
  * @author jackie chen
  * @date 2024/11/7 8:36 PM

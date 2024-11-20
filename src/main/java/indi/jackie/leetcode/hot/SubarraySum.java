@@ -6,6 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 和为K的子数组
+ * 给定一个整数数组和一个整数k，找到该数组中和为k的连续子数组的个数
  *
  * @author jackie chen
  * @date 2024/10/20 12:57 PM

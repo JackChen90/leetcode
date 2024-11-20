@@ -3,6 +3,9 @@ package indi.jackie.leetcode.hot;
 import indi.jackie.leetcode.common.TreeNode;
 
 /**
+ * 二叉树的直径
+ * <a href="https://leetcode-cn.com/problems/diameter-of-binary-tree/"/>
+ *
  * @author jackie chen
  * @create 2024/10/31
  * @description DiameterOfBinaryTree

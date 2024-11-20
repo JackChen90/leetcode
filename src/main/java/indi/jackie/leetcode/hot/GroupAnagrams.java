@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * 字母异位词分组
+ *
  * @author jackie chen
  * @create 2024/10/13
  * @description GroupAnagrams
